@@ -1,20 +1,32 @@
 html {
-  background: #29506D;
+  background: white;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 body {
   text-align: center;
 }
 
-table {
+h1 {
+  margin: 0;
+  margin-top: 25px;
+  color: #102637;
+}
+
+.frame {
+  border: 15px solid #102637;
+  border-radius: 3px;
   margin: 0 auto;
-  margin-top: 100px;
   margin-bottom: 100px;
   width: 400px;
+}
+
+table {
+  background: #29506D;
+  width: 100%;
   text-align: center;
-  border: 7px solid #102637;
+  border: 25px solid white;
   border-collapse: collapse; 
-  font-family: 'Courier New', Courier, monospace;
 }
 
 td {
@@ -26,8 +38,8 @@ td {
 
 .labels td {
   padding: 0;
-  border-bottom: 2px solid #102637;
-  color: #102637;
+  border-bottom: 2px solid white;
+  color: white;
   font-weight: 600;
   padding-left: 10px;
   padding-right: 10px;
