@@ -1,0 +1,42 @@
+html {
+  background: #29506D;
+}
+
+body {
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 400px;
+  text-align: center;
+  border: 7px solid #102637;
+  border-collapse: collapse; 
+  font-family: 'Courier New', Courier, monospace;
+}
+
+td {
+  color: #4C7EA4;
+  text-align: start;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.labels td {
+  padding: 0;
+  border-bottom: 2px solid #102637;
+  color: #102637;
+  font-weight: 600;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+.char {
+  color: #79C5FF;
+  text-align: end;
+  padding-right: 10px;
+}
